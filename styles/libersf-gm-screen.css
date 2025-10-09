@@ -1,0 +1,5 @@
+.libersf-gm .tab{position: absolute;}
+.libersf-gm .menucol{width: 200px;display: inline-block;position: absolute;top:0}
+.libersf-gm .menucol li{list-style: none}
+.libersf-gm .menucol li li{}
+.libersf-gm .contenue{padding-top: 10px;display: inline-block;height: 492px;width:721px; overflow:auto; position:absolute;left:200px }

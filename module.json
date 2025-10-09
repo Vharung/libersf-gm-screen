@@ -1,0 +1,53 @@
+{
+  "id": "libersf-gm-screen",
+  "title": "Liber SF GM Screen",
+  "description": "Un écran de Maître du Jeu complet pour le système Liber SF, offrant des raccourcis, résumés de règles et outils de gestion rapides.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Vharung",
+      "url": "https://leschroniquesdeliber.fr",
+      "discord": "AlexandreC#0000"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "scripts/libersf-gm-screen.js"
+  ],
+  "styles": [
+    "styles/libersf-gm-screen.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [],
+  "dependencies": [
+    {
+      "id": "liber-chronicles",
+      "type": "system"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "liber-chronicles",
+        "type": "system",
+        "compatibility": { "minimum": "1.0.0" }
+      }
+    ]
+  },
+  "url": "https://github.com/Vharung/libersf-gm-screen",
+  "manifest": "https://raw.githubusercontent.com/Vharung/libersf-gm-screen/main/module.json",
+  "download": "https://github.com/Vharung/libersf-gm-screen/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "bugs": "https://github.com/leschroniquesdeliber/libersf-gm-screen/issues",
+  "changelog": "https://github.com/leschroniquesdeliber/libersf-gm-screen/CHANGELOG.md"
+}
