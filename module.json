@@ -6,7 +6,8 @@
   "authors": [
     {
       "name": "Vharung",
-      "url": "https://leschroniquesdeliber.fr"
+      "url": "https://leschroniquesdeliber.fr",
+      "discord": "AlexandreC#0000"
     }
   ],
   "compatibility": {
@@ -28,12 +29,6 @@
     }
   ],
   "packs": [],
-  "dependencies": [
-    {
-      "id": "liber-chronicles",
-      "type": "system"
-    }
-  ],
   "relationships": {
     "requires": [
       {
