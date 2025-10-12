@@ -2,11 +2,12 @@
   <div id="regles" class="tab active" data-group="sheet" data-tab="regles">
     <div class="menucol">
       <ul>
-        <li><a data-action="menulink" data-target="regle1">Règles de base</a></li>
+        <li><a data-action="menulink" data-target="regle1">Question de bon sens</a></li>
+        <li><a data-action="menulink" data-target="regle2">Actions</a></li>
       </ul>
     </div>
     <div class="contenue">
-      <h4>Question de bon sens</h4>
+      <h4 id="regle1">Question de bon sens</h4>
       <table border="1">
         <thead>
           <tr>
@@ -33,7 +34,7 @@
           </tr>
         </tbody>
       </table>
-      <h4>Actions</h4>
+      <h4 id="regle2">Actions</h4>
       <table border="1">
         <thead>
           <tr>
@@ -68,25 +69,6 @@
           </tr>
         </tbody>
       </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   </div>
   <div id="jet" class="tab" data-group="sheet" data-tab="jet">
@@ -96,7 +78,7 @@
       </ul>
     </div>
     <div class="contenue">
-    <h4>Jets de compétences</h4>
+    <h4 id="jet1">Jets de compétences</h4>
     <table border="1">
       <thead>
         <tr>
@@ -130,11 +112,16 @@
   <div id="combat" class="tab" data-group="sheet" data-tab="combat">
     <div class="menucol">
       <ul>
-        <li><a data-action="menulink" data-target="combat1">Combat & Mouvement</a></li>
+        <li><a data-action="menulink" data-target="combat1">Étapes du combat</a></li>
+        <li><a data-action="menulink" data-target="combat2">Couverts</a></li>
+        <li><a data-action="menulink" data-target="combat3">Chutes</a></li>
+        <li><a data-action="menulink" data-target="combat4">Brûlures</a></li>
+        <li><a data-action="menulink" data-target="combat5">Hémorragie / Fuite d’huile</a></li>
+        <li><a data-action="menulink" data-target="combat6"Maladies / Poison</a></li>
       </ul>
     </div>
     <div class="contenue">
-    <h4>Étapes du combat</h4>
+    <h4 id="combat1">Étapes du combat</h4>
     <table border="1">
       <thead>
         <tr>
@@ -161,7 +148,7 @@
         </tr>
       </tbody>
     </table>
-    <h4>Couverts</h4>
+    <h4 id="combat2">Couverts</h4>
     <table border="1">
       <thead>
         <tr>
@@ -177,7 +164,7 @@
         <tr><td>Impossible</td><td>–</td><td>Mur plein</td></tr>
       </tbody>
     </table>
-    <h4>Chutes</h4>
+    <h4 id="combat3">Chutes</h4>
     <table border="1">
       <thead>
         <tr>
@@ -195,7 +182,7 @@
         <tr><td>>21 m</td><td>Mort</td></tr>
       </tbody>
     </table>
-    <h4>Brûlures</h4>
+    <h4 id="combat4">Brûlures</h4>
     <table border="1">
       <thead>
         <tr>
@@ -211,7 +198,7 @@
         <tr><td>Lave, métal en fusion</td><td>Mort</td><td>Grave</td></tr>
       </tbody>
     </table>
-    <h4>Hémorragie / Fuite d’huile</h4>
+    <h4 id="combat5">Hémorragie / Fuite d’huile</h4>
     <table border="1">
       <thead>
         <tr>
@@ -225,7 +212,7 @@
         <tr><td>Grave</td><td>1d4 tour/min</td></tr>
       </tbody>
     </table>
-    <h4>Maladies / Poison</h4>
+    <h4 id="combat6">Maladies / Poison</h4>
     <table border="1">
       <thead>
         <tr>
@@ -248,11 +235,11 @@
   <div id="soin" class="tab" data-group="sheet" data-tab="soin">
     <div class="menucol">
       <ul>
-        <li><a data-action="menulink" data-target="soin1">Guérison</a></li>
+        <li><a data-action="menulink" data-target="soin1">Récupération de PV</a></li>
       </ul>
     </div>
     <div class="contenue">
-      <h4>Récupération de PV</h4>
+      <h4 id="soin1">Récupération de PV</h4>
       <table border="1">
         <thead>
           <tr>
@@ -272,11 +259,19 @@
   <div id="magie" class="tab" data-group="sheet" data-tab="magie">
     <div class="menucol">
       <ul>
-        <li><a data-action="menulink" data-target="magie1">Choix et gestion des sorts</a></li>
+        <li><a data-action="menulink" data-target="magie1">Actions du Pilote</a></li>
+        <li><a data-action="menulink" data-target="magie2">Actions des Passagers</a></li>
+        <li><a data-action="menulink" data-target="magie3">Types de Véhicules</a></li>
+        <li><a data-action="menulink" data-target="magie4">Armes des Véhicules</a></li>
+        <li><a data-action="menulink" data-target="magie5">Champ de Force et Blindages</a></li>
+        <li><a data-action="menulink" data-target="magie6">Déplacements Inter-planétaires</a></li>
+        <li><a data-action="menulink" data-target="magie7">IA des Véhicules</a></li>
+        <li><a data-action="menulink" data-target="magie8">Déroulement du Combat</a></li>
+        <li><a data-action="menulink" data-target="magie9">Niveaux de Blindage et Danger</a></li>
       </ul>
     </div>
     <div class="contenue">
-      <h3>Section 2 : Actions du Pilote</h3>
+      <h4 id="magie1">Actions du Pilote</h4>
       <table border="1">
         <thead>
           <tr>
@@ -331,8 +326,7 @@
           </tr>
         </tbody>
       </table>
-
-      <h3>Section 3 : Actions des Passagers</h3>
+      <h4 id="magie2">Section 3 : Actions des Passagers</h4>
       <table border="1">
         <thead>
           <tr>
@@ -355,8 +349,7 @@
           <tr><td>Abordage</td><td>Téléportation sur vaisseau ennemi</td><td>–</td><td>40</td></tr>
         </tbody>
       </table>
-
-      <h3>Section 4 : Types de Véhicules</h3>
+      <h4 id="magie3">Types de Véhicules</h4>
       <table border="1">
         <thead>
           <tr>
@@ -372,8 +365,7 @@
           <tr><td>Spatiaux</td><td>Espace</td><td>Malus -20 en aérien</td></tr>
         </tbody>
       </table>
-
-      <h3>Section 4 : Armes des Véhicules</h3>
+      <h4 id="magie4">Armes des Véhicules</h4>
       <table border="1">
         <thead>
           <tr>
@@ -392,8 +384,7 @@
           <tr><td>Canon Plasmique Lourd</td><td>P</td><td>200</td><td>Inflige moitié dégâts au moteur</td><td>★★★★★</td></tr>
         </tbody>
       </table>
-
-      <h3>Champ de Force et Blindages</h3>
+      <h4 id="magie5">Champ de Force et Blindages</h4>
       <table border="1">
         <thead>
           <tr>
@@ -405,14 +396,11 @@
           <tr><td>Blindage</td><td>Protège le véhicule, perd 10% efficacité après dégâts, nécessite réparation</td></tr>
         </tbody>
       </table>
-
-      <h3>Déplacements Inter-planétaires</h3>
+      <h4 id="magie6">Déplacements Inter-planétaires</h4>
       <p>Utilisation de bulles spatio-temporelles avec moteurs Warp Drive, adaptés aux vaisseaux moyens, lourds et mères.</p>
-
-      <h3>IA des Véhicules</h3>
+      <h4 id="magie7">IA des Véhicules</h4>
       <p>Les IA améliorent les actions du véhicule et du joueur. Leur niveau est représenté par le nombre d'étoiles.</p>
-
-      <h3>Déroulement du Combat</h3>
+      <h4 id="magie8">Déroulement du Combat</h4>
       <table border="1">
         <thead>
           <tr>
@@ -427,8 +415,7 @@
           <tr><td>État du moteur</td><td>Impacte vitesse et manœuvrabilité, panne possible</td></tr>
         </tbody>
       </table>
-
-      <h3>Niveaux de Blindage et Danger</h3>
+      <h4 id="magie9">Niveaux de Blindage et Danger</h4>
       <table border="1">
         <thead>
           <tr>
@@ -447,11 +434,15 @@
   <div id="objets" class="tab" data-group="sheet" data-tab="objets">
     <div class="menucol">
       <ul>
-        <li><a data-action="menulink" data-target="objet1">Règles spéciales</a></li>
+        <li><a data-action="menulink" data-target="objet1">Dégâts des Armes selon la Réussite</a></li>
+        <li><a data-action="menulink" data-target="objet2">Armes de Corps à Corps</a></li>
+        <li><a data-action="menulink" data-target="objet3">Grenades</a></li>
+        <li><a data-action="menulink" data-target="objet4">Armes à Distance</a></li>
+        <li><a data-action="menulink" data-target="objet5">Armures et Champs de Force</a></li>
       </ul>
     </div>
     <div class="contenue">
-    <h4>Dégâts des Armes selon la Réussite</h4>
+    <h4 id="objet1">Dégâts des Armes selon la Réussite</h4>
     <table border="1">
       <thead>
         <tr>
@@ -468,7 +459,7 @@
         <tr><td>Échec critique</td><td>Arme inutilisable</td></tr>
       </tbody>
     </table>
-    <h4>Armes de Corps à Corps</h4>
+    <h4 id="objet2">Armes de Corps à Corps</h4>
     <table border="1">
       <thead>
         <tr>
@@ -482,7 +473,7 @@
         <tr><td>Lame d’énergie</td><td>L</td><td>20+FOR10</td><td>★ ★ ★ ☆ ☆</td><td>20</td></tr>
       </tbody>
     </table>
-    <h4>Grenades</h4>
+    <h4 id="objet3">Grenades</h4>
     <table border="1">
       <thead>
         <tr>
@@ -500,7 +491,7 @@
         <tr><td>Grenade EMP</td><td>–</td><td>–</td><td>5</td><td>Grille tout ce qui électronique</td><td>★ ★ ★ ★ ☆</td><td>500</td></tr>
       </tbody>
     </table>
-    <h4>Armes à Distance</h4>
+    <h4 id="objet4">Armes à Distance</h4>
     <table border="1">
       <thead>
         <tr>
@@ -522,7 +513,7 @@
         <!-- Autres armes à distance peuvent être ajoutées ici -->
       </tbody>
     </table>
-    <h4>Armures et Champs de Force</h4>
+    <h4 id="objet5">Armures et Champs de Force</h4>
     <table border="1">
       <thead>
         <tr>
@@ -546,11 +537,14 @@
   <div id="pnj" class="tab" data-group="sheet" data-tab="pnj">
     <div class="menucol">
       <ul>
-        <li><a data-action="menulink" data-target="pnj1">Postures</a></li>
+        <li><a data-action="menulink" data-target="pnj1">Points d’escouade</a></li>
+        <li><a data-action="menulink" data-target="pnj2">Métiers</a></li>
+        <li><a data-action="menulink" data-target="pnj3">Mutations</a></li>
+        <li><a data-action="menulink" data-target="pnj3">Progression et Level Up</a></li>
       </ul>
     </div>
     <div class="contenue">
-      <h4>Points d’escouade</h4>
+      <h4 id="pnj1">Points d’escouade</h4>
       <table border="1">
         <thead>
           <tr>
@@ -561,15 +555,31 @@
         <tbody>
           <tr>
             <td>Points d’équipe</td>
-            <td>Accumulation par coopération, permet bonus sur jets, actions supplémentaires ou spéciales.</td>
+            <td>
+              <ul>
+                <li>Un bonus temporaire peut être accordé aux joueurs pour des actions collectives astucieuses, stratégiques, généralement un +20 au dès avant le lancé. Ce bonus est activé en début de tour, pour le tour en cours.</li>
+                <li>Une action possible est «Analyse de la Situation», les joueurs peuvent dépenser un point d’escouade pour prendre un tour pour observer leur environnement et obtenir des informations utiles sur les ennemis, les obstacles et objectifs à venir.</li>
+                <li>Un point d’escouade peut être utilisé pour réussir réussir automatiquement un jet de survie</li>
+                <li>Transforme un échec critique en échec</li>
+                <li>Transforme un succès en succès critiques</li>
+                <li>Supprimer 1 point de solitude</li>
+              </ul>
+            </td>
           </tr>
           <tr>
             <td>Points de solitude</td>
-            <td>Accumulation quand isolé, permet bonus sur actions individuelles, "Fureur solitaire", malus si >3 points.</td>
+            <td>
+              <ul>
+                <li>«Méditation» Un joueur peut ajouter un point de solitude pour obtenir un bonus sur un jet de compétence lorsqu’il agit seul, de 10 en général.</li>
+                <li>Une action spéciale appelée «Fureur Solitaire» pourrait être débloquée en ajoutant un point de solitude, permettant à un joueur de déchaîner une attaque puissante, doublant les dégâts, mais rendant la précision difficile, malus de -20, augmentant les chances de dégâts collatéraux.</li>
+                <li>«Instinct de Survie» est une autre action solitaire qui permet à un joueur de réagir rapidement à une menace inattendue ou de trouver une solution créative à un problème lorsqu’il est seul.</li>
+                <li>«Désespoir» Si un joueur accumule trop de points de solitude sans les dépenser, plus de 3 points, cela peut conduire à des conséquences négatives, telles que des pénalités sur les jets de compétences, des événements malheureux ou des situations dangereuses dues à l’isolement ou à la désorientation. Généralement de -30.</li>
+              </ul>
+            </td>
           </tr>
         </tbody>
       </table>
-      <h4>Métiers</h4>
+      <h4 id="pnj2">Métiers</h4>
       <table border="1">
         <thead>
           <tr>
@@ -591,7 +601,7 @@
           <tr><td>Garde du corps</td><td>Protection du client et blocage des dangers</td><td>Force +10</td></tr>
         </tbody>
       </table>
-      <h4>Mutations</h4>
+      <h4 id="pnj3">Mutations</h4>
       <table border="1">
         <thead>
           <tr>
@@ -643,7 +653,7 @@
           </tr>
         </tbody>
       </table>
-      <h4>Progression et Level Up</h4>
+      <h4 id="pnj4">Progression et Level Up</h4>
       <ul>
         <li>Chaque level up : +10 points à distribuer dans les compétences.</li>
         <li>Tous les 2 level up : possibilité de choisir une compétence supplémentaire.</li>

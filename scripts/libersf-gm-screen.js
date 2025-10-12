@@ -8,7 +8,7 @@ class LiberGMScreen extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "libersf-gm-screen",
     window: {
-      title: "Écran du MJ - Liber Chronicles",
+      title: "Écran du MJ - Liber SF",
       icon: "fa-solid fa-dragon",
     },
     position: { width: 950, height:600 },
@@ -61,9 +61,9 @@ class LiberGMScreen extends HandlebarsApplicationMixin(ApplicationV2) {
 
   /** Ouvre la fenêtre (singleton, visible MJ uniquement) */
   static async show() {
-    if (!game.user.isGM) {
+    /*if (!game.user.isGM) {
       return ui.notifications.warn("⚠️ Réservé au MJ !");
-    }
+    }*/
     if (this._instance) this._instance.close();
     this._instance = new LiberGMScreen();
     await this._instance.render(true);
