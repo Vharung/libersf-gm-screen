@@ -1,0 +1,42 @@
+<section class="liber-encounter-helper window-content">
+  <div class="flexrow">
+    <div class="flexcol">
+      <h3>Personnages</h3>
+        <div class="liste">
+        {{#each characters}}
+          <label>
+            <input type="checkbox" name="char" value="{{this.id}}">
+            {{this.name}} ({{this.hp}} PV)
+          </label><br>
+        {{/each}}
+      </div>
+    </div>
+
+    <div class="flexcol">
+      <h3>Monstres</h3>
+      <div class="liste">
+        {{#each monsters}}
+          <label>
+            <input type="checkbox" name="monster" value="{{this.id}}">
+            <input type="number" class="qty-{{this.id}}" name="monster-qty" value="{{this.nb}}">
+            {{this.name}} ({{this.hp}} PV)
+          </label><br>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="flexrow">
+    <button data-action="compare">Comparer</button>
+    <button data-action="create">Créer sur la scène</button>
+  </div>
+
+  <div class="difficulty-bar" style="height: 20px; background: #444; margin-top: 10px; position: relative;">
+    <div class="pc" style="height: 100%; background: green; width: 50%; float:left;"></div>
+    <div class="monster" style="height: 100%; background: red; width: 50%; float:right;"></div>
+  </div>
+
+  <div class="result" style="margin-top: 10px; text-align: center;">
+    Sélectionnez des personnages et des monstres pour calculer la difficulté.
+  </div>
+</section>

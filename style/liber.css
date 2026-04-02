@@ -1,0 +1,37 @@
+.liber-helper { padding: 10px; }
+.liber-helper ul { list-style: none; padding: 0; }
+.liber-helper li { margin-bottom: 3px; }
+.liber-helper .flexrow{height: 300px;overflow: hidden;}
+.liber-helper .liste{height: 250px;overflow: auto;}
+
+.difficulty-bar {
+  display: flex;
+  width: 100%;
+  height: 10px;
+  background: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.difficulty-bar .pc { background: green; height: 100%; transition: width 0.3s; }
+.difficulty-bar .monster { background: crimson; height: 100%; transition: width 0.3s; }
+
+.actions { margin-top: 10px; text-align: center; }
+.actions button {
+  margin: 5px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  background: var(--color-primary, #0066ff);
+  color: white;
+  cursor: pointer;
+}
+
+.liber-helper-btn {
+  width: 100%;
+  margin-top: 5px;
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+}
